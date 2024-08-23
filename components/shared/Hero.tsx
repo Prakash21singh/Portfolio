@@ -17,7 +17,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="mt-2 font-light text-center text-md mx-4">
-            Hi! I'm Prakash, a Next.js Developer based in India
+            Hi! I&apos;m Prakash, a Next.js Developer based in India
           </p>
         </div>
       </div>
