@@ -4,11 +4,10 @@ import { TextGenerateEffect } from "../ui/Textgenerate";
 
 const Hero = () => {
   return (
-    <div className="text-white ">
+    <div className="text-white h-auto ">
       <BackgroundBeams />
-
       <div className="w-full h-screen flex items-center justify-center flex-col">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center h-full">
           <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
             Dynamic web magic with next.js
           </p>

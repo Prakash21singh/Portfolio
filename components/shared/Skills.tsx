@@ -4,12 +4,12 @@ import { CanvasRevealEffectDemo } from "../ui/CanvasRevealDemo";
 
 const Skills = () => {
   return (
-    <section className="h-screen">
+    <section className="h-auto">
       <h2 className="text-center text-[30px] md:text-4xl lg:text-5xl text-purple mb-10 uppercase font-semibold">
         Core skills
       </h2>
-      <div className="flex justify-around items-center gap-5 ">
-        <div className="w-[90%] h-96">
+      <div className="flex justify-around items-center gap-5 h-full relative">
+        <div className="w-[90%] ">
           <CanvasRevealEffectDemo key={"one"} />
         </div>
       </div>

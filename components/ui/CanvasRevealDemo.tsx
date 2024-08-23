@@ -14,10 +14,7 @@ export function CanvasRevealEffectDemo() {
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-dark"
-            colors={[
-              [16, 24, 32],
-              [254, 231, 21],
-            ]}
+            colors={[[228, 0, 255]]}
           />
         </Card>
         <Card
@@ -26,17 +23,14 @@ export function CanvasRevealEffectDemo() {
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-dark-600"
-            colors={[
-              [184, 80, 66], // #B85042
-              [167, 190, 174],
-            ]}
+            colors={[[255, 0, 190]]}
           />
         </Card>
         <Card
           title="Expert in React, state management, hooks, and UI integration."
           icon={<ReactIcon />}>
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             containerClassName="bg-dark-400"
             colors={[
               [115, 93, 165], // #735DA5
@@ -49,16 +43,11 @@ export function CanvasRevealEffectDemo() {
           icon={<NodeIcon />}>
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-dark"
-            colors={[
-              [42, 49, 50], // #2A3132
-              [118, 54, 38], // #763626
-              [144, 175, 197],
-            ]}
+            containerClassName="bg-dark-400"
+            colors={[[167, 0, 255]]}
             dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
-          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
       </div>
     </>
