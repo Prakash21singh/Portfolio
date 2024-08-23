@@ -14,6 +14,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "res.cloudinary.com",
       },
+      {
+        protocol: "https",
+        hostname: "img-cdn.pixlr.com",
+      },
     ],
   },
   typescript: {

@@ -31,7 +31,7 @@ export function CanvasRevealEffectDemo() {
           icon={<ReactIcon />}>
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-dark-400"
+            containerClassName="bg-dark-300"
             colors={[
               [115, 93, 165], // #735DA5
               [211, 197, 229],
