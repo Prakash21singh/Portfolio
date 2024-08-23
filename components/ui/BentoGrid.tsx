@@ -218,7 +218,7 @@ export const SkeletonTwo = () => {
 
 export const SkeletonFour = () => {
   return (
-    <div className="h-60 md:h-60  flex flex-col items-center relative bg-transparent dark:bg-transparent mt-10">
+    <div className="h-60 md:h-60 w-full flex flex-col items-center justify-center relative bg-transparent dark:bg-transparent mt-10">
       <Globe className="absolute -right-10 md:-right-10 -bottom-80 md:-bottom-72" />
     </div>
   );
@@ -229,7 +229,6 @@ export const Globe = ({ className }: { className?: string }) => {
 
   useEffect(() => {
     let phi = 0;
-
     if (!canvasRef.current) return;
 
     const globe = createGlobe(canvasRef.current, {
@@ -251,8 +250,6 @@ export const Globe = ({ className }: { className?: string }) => {
         { location: [40.7128, -74.006], size: 0.1 },
       ],
       onRender: (state) => {
-        // Called on every animation frame.
-        // `state` will be an empty object, return updated params.
         state.phi = phi;
         phi += 0.01;
       },
