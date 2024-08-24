@@ -132,7 +132,7 @@ export const SkeletonThree = () => {
     <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
       <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
         <Image
-          src="https://res.cloudinary.com/dipnel4vv/image/upload/v1724385312/xx3vix5q4bwwaav9wok1.png"
+          src="https://res.cloudinary.com/dipnel4vv/image/upload/v1724422831/bg6xjxuoxobvpqvcc4sv.png"
           alt="header"
           width={800}
           height={800}
