@@ -5,7 +5,7 @@ import { AnimatedTooltip } from "../ui/Tooltip";
 
 const Testimonials = () => {
   return (
-    <section className="w-full ">
+    <section className="w-full">
       <div className="flex items-center justify-center my-3">
         <AnimatedTooltip items={people} />
       </div>

@@ -2,7 +2,12 @@ import React from "react";
 
 const MongoIcon = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" id="mongodb">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 128 128"
+      id="mongodb"
+      width="27"
+      height="24">
       <path
         fill="#439934"
         fill-rule="evenodd"
