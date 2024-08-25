@@ -30,6 +30,7 @@ const Project = () => {
             <PinContainer
               title={project.title}
               href={project.href}
+              key={project.name}
               className=" w-[22rem] lg:w-[35rem] h-[30rem] border m-0">
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-full ">
                 <Image
