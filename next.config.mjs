@@ -18,6 +18,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "img-cdn.pixlr.com",
       },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
     ],
   },
   typescript: {

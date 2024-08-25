@@ -4,6 +4,8 @@ import Offering from "@/components/shared/Offering";
 import Testimonials from "@/components/shared/Testimonials";
 import Project from "../components/shared/Project";
 import Experience from "@/components/shared/Experience";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { navItems } from "@/lib/constant";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <Project />
       <Experience />
       <Testimonials />
+      <FloatingNav navItems={navItems} />
     </main>
   );
 }

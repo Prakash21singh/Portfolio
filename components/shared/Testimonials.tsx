@@ -1,13 +1,14 @@
 import React from "react";
 import { InfiniteMovingCards } from "../ui/InfiniteMovingCard";
-import { items } from "@/lib/constant";
+import { items, people } from "@/lib/constant";
+import { AnimatedTooltip } from "../ui/Tooltip";
 
 const Testimonials = () => {
   return (
     <section className="w-full ">
-      <h1 className="text-3xl lg:text-5xl text-purple text-center">
-        Testimonials
-      </h1>
+      <div className="flex items-center justify-center my-3">
+        <AnimatedTooltip items={people} />
+      </div>
       <div className="w-full  p-5 lg:p-20">
         <InfiniteMovingCards
           items={items}

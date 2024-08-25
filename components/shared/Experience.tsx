@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="w-full p-5">
+    <section className="w-full p-5" id="experience">
       <h1 className="text-center text-3xl lg:text-5xl text-purple">
         Experience
       </h1>
@@ -50,7 +50,7 @@ const Experience = () => {
           </div>
           <div className="w-full p-4">
             <h1 className="text-xl lg:text-3xl text-purple text-center ">
-              Apna College - Teaching Assistant (MERN Stack)
+              Apna College - Teaching Assistant
               <p className="text-xl text-black-300">Internship</p>
             </h1>
             <ul className="text-black-400">

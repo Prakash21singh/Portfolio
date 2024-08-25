@@ -1,86 +1,223 @@
-import Image from "next/image";
-import Link from "next/link";
+import Appwrite from "@/components/icons/Appwrite";
+import Clerk from "@/components/icons/Clerk";
+import EjsIcon from "@/components/icons/EjsIcon";
+import ExpressIcon from "@/components/icons/ExpressIcon";
+import MongoIcon from "@/components/icons/MongoIcon";
+import NextIcon from "@/components/icons/NextIcon";
+import NodeIcon from "@/components/icons/NodeIcon";
+import ReactIcon from "@/components/icons/ReactIcon";
+import TailwindIcon from "@/components/icons/TailwindIcon";
+import TsIcon from "@/components/icons/TsIcon";
+import {
+  IconBuilding,
+  IconCode,
+  IconHome,
+  IconUserPlus,
+} from "@tabler/icons-react";
 
-export const content = [
+export const projects = [
   {
-    title: "Snapgram",
+    title: "www.snapgram.com",
+    href: "https://snap-gram-beta.vercel.app",
+    image:
+      "https://res.cloudinary.com/dipnel4vv/image/upload/v1724422831/bg6xjxuoxobvpqvcc4sv.png",
+    name: "Refined Photo Sharing Community",
     description:
-      "Snapgram is an Instagram clone featuring an aesthetic user interface. It offers users the ability to create posts, like and save content, delete posts, explore new content, and engage in chats. The platform is built with robust login functionality, ensuring secure and seamless access for users.",
-    content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
-        <Link
-          href={"https://snap-gram-beta.vercel.app"}
-          className="w-full h-full">
-          <Image
-            src="https://res.cloudinary.com/dipnel4vv/image/upload/v1724422831/bg6xjxuoxobvpqvcc4sv.png"
-            width={600}
-            height={600}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
-        </Link>
-      </div>
-    ),
+      "Snapgram is an aesthetic Instagram clone offering stylish photo sharing, interactive features, and a refined social experience.",
+    stacks: [
+      <>
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <ReactIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <Appwrite />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <TailwindIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <TsIcon />
+        </div>
+      </>,
+    ],
   },
   {
-    title: "Coshare",
+    title: "www.coshare.com",
+    href: "https://co-share-client.vercel.app",
+    image:
+      "https://res.cloudinary.com/dipnel4vv/image/upload/v1724423247/qm9uz6e4vpghdslmakuo.png",
+    name: "Dynamic File Sharing Platform",
     description:
-      "Co-Share is a dynamic platform designed with robust authentication and a sleek user interface. It allows users to upload files and images, share them with others, download files from other users, and manage their uploads by editing or deleting them. The platform also includes social features, enabling users to follow or unfollow others, fostering a collaborative and interactive environment.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-900),var(--gray-500))] flex items-center justify-center text-white">
-        <Link href={"co-share-client.vercel.app"} className="w-full h-full">
-          <Image
-            src={
-              "https://res.cloudinary.com/dipnel4vv/image/upload/v1724423247/qm9uz6e4vpghdslmakuo.png"
-            }
-            alt="coshare"
-            width={600}
-            height={600}
-            className="w-full h-full object-cover object-center"
-          />
-        </Link>
-      </div>
-    ),
+      "Co-Share is a sleek platform with robust authentication, enabling users to upload, share, and manage files for a collaborative experience.",
+    stacks: [
+      <>
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <ReactIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <NodeIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <ExpressIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <MongoIcon />
+        </div>
+      </>,
+    ],
   },
   {
-    title: "Threads",
+    title: "www.fashion.com",
+    href: "https://github.com/prakash21singh/fassSion",
+    image:
+      "https://res.cloudinary.com/dipnel4vv/image/upload/v1724560064/avkqddbl5hdbvcfbex24.png",
+    name: "Stylish E-commerce Clothing Store",
     description:
-      "Threads is a platform where users can sign in, complete onboarding, and create threads. It offers features for commenting on threads, viewing comments, following other users, viewing profiles, and creating communities, fostering a rich and interactive user experience.",
-    content: (
-      <div className="h-full w-auto flex items-center justify-center text-white">
-        <Link
-          href={"https://github.com/prakash21singh/threads"}
-          className="w-full h-full">
-          <Image
-            src="https://res.cloudinary.com/dipnel4vv/image/upload/v1724423196/hur2mjxzjuch9xjoejqh.png"
-            width={500}
-            height={500}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
-        </Link>
-      </div>
-    ),
+      "FashionHub is an e-commerce platform for trendy clothing, offering a seamless experience with a variety of fashion items for all styles.",
+    stacks: [
+      <>
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <EjsIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <NodeIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <ExpressIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <MongoIcon />
+        </div>
+      </>,
+    ],
+  },
+  {
+    title: "www.threads.com",
+    href: "https://github.com/prakash21singh/threads",
+    image:
+      "https://res.cloudinary.com/dipnel4vv/image/upload/v1724423196/hur2mjxzjuch9xjoejqh.png",
+    name: "Interactive Community Building Platform",
+    description:
+      "Threads allows users to create threads, comment, follow others, and build communities, offering a rich and interactive social experience.",
+    stacks: [
+      <>
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <Clerk />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <TsIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <NextIcon />
+        </div>
+
+        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+          <MongoIcon />
+        </div>
+      </>,
+    ],
   },
 ];
 
 export const items = [
   {
     quote:
-      "Prakash's ability to deliver clean, well-organized code is exceptional. His attention to detail ensures that the codebase is both maintainable and scalable, which has been crucial for our long-term success. Not only does Prakash consistently meet tight deadlines, but he also maintains a high standard of quality. We greatly value Prakash's dedication to writing neat code and providing scalable solutions.",
+      "Prakash consistently delivers clean, well-organized code that is crucial for our long-term success. His attention to detail and ability to meet tight deadlines is impressive and flexible.",
     name: "Rohit Sharma",
     title: "Efficiency-Focused Developer",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     quote:
-      "Working with Prakash has been a game-changer for our development process. His ability to deliver high-quality, scalable code in record time has significantly improved our project outcomes. Prakash's code is always clean and easy to understand, which makes future maintenance a breeze. He consistently goes above and beyond to ensure that the service he provides is top-notch, and his quick turnaround times have been instrumental in keeping our projects on schedule.",
+      "Prakash's high-quality, scalable code has greatly improved our project outcomes. His clean code and quick turnaround times have been essential for keeping projects on schedule.",
     name: "Priya Patel",
     title: "Timely and Quality-Oriented Professional",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     quote:
-      "Prakash stands out for his exceptional code delivery. The code he writes is not only clean and efficient but also highly scalable, which has allowed us to expand our system with ease. Prakash's fast delivery without compromising on quality has been a key factor in meeting our tight deadlines. Prakash is a reliable and skilled developer who consistently delivers neat, scalable code that meets our needs perfectly.",
+      "Prakash's clean and efficient code, along with his fast delivery, has been key to expanding our system with ease. His reliability and skill are evident in the neat, scalable solutions he provides.",
     name: "Sanjay Verma",
     title: "Scalable Solutions Expert",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+  },
+];
+
+export const navItems = [
+  {
+    name: "Home",
+    link: "#",
+    icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Skills",
+    link: "#expertise",
+    icon: <IconUserPlus className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Project",
+    link: "#project",
+    icon: <IconCode className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Experience",
+    link: "#experience",
+    icon: <IconBuilding className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+];
+
+export const people = [
+  {
+    id: 1,
+    name: "John Doe",
+    designation: "Software Engineer",
+    image:
+      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+  },
+  {
+    id: 2,
+    name: "Robert Johnson",
+    designation: "Product Manager",
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 3,
+    name: "Jane Smith",
+    designation: "Data Scientist",
+    image:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    designation: "UX Designer",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 5,
+    name: "Tyler Durden",
+    designation: "Soap Developer",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+  },
+  {
+    id: 6,
+    name: "Dora",
+    designation: "The Explorer",
+    image:
+      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
   },
 ];
