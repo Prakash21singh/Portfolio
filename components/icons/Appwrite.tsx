@@ -3,7 +3,7 @@ import React from "react";
 const Appwrite = () => {
   return (
     <svg
-      width="36"
+      width="27"
       height="33"
       viewBox="0 0 36 33"
       fill="none"

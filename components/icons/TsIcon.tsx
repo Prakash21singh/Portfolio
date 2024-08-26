@@ -3,7 +3,7 @@ import React from "react";
 const TsIcon = () => {
   return (
     <svg
-      width="17"
+      width="27"
       height="11"
       viewBox="0 0 17 11"
       fill="none"

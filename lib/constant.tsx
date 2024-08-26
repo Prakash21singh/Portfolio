@@ -26,11 +26,11 @@ export const projects = [
       "Snapgram is an aesthetic Instagram clone offering stylish photo sharing, interactive features, and a refined social experience.",
     stacks: [
       <>
-        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+        <div className="w-12 h-12 rounded-full overflow-hidden p-3 outline-none border  flex items-center justify-center">
           <ReactIcon />
         </div>
 
-        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+        <div className="w-12 h-12 rounded-full p-3 border  flex items-center justify-center">
           <Appwrite />
         </div>
 
@@ -54,7 +54,7 @@ export const projects = [
       "Co-Share is a sleek platform with robust authentication, enabling users to upload, share, and manage files for a collaborative experience.",
     stacks: [
       <>
-        <div className="w-12 h-12 rounded-full p-3 border border-black-300 flex items-center justify-center">
+        <div className="w-12 h-12 object-contain rounded-full p-3 border border-black-300 flex items-center justify-center">
           <ReactIcon />
         </div>
 

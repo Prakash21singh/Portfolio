@@ -3,7 +3,7 @@ import React from "react";
 const Clerk = () => {
   return (
     <svg
-      width="21"
+      width="27"
       height="22"
       viewBox="0 0 21 22"
       fill="none"

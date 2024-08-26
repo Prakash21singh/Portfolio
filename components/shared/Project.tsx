@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Cover } from "../ui/Cover";
 import { PinContainer } from "../ui/CardPin";
 import { projects } from "@/lib/constant";
-import ReactIcon from "../icons/ReactIcon";
 
 const Project = () => {
   const [isClient, setIsClient] = useState(false);
@@ -27,12 +26,12 @@ const Project = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full max-w-7xl mx-auto mt-10">
         {projects.map((project, i) => (
           <div
-            className="h-[40rem] w-full flex items-center justify-center  "
+            className="h-[35rem] lg:h-[40rem] w-full flex items-center justify-center  border-red-500 "
             key={project.name}>
             <PinContainer
               title={project.title}
               href={project.href}
-              className=" w-[22rem] lg:w-[35rem] h-[30rem] border m-0">
+              className="w-[22rem] lg:w-[35rem] h-[30rem] border m-0">
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-full ">
                 <Image
                   src={project.image}

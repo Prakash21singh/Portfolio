@@ -3,7 +3,7 @@ import React from "react";
 const Cloudinary = () => {
   return (
     <svg
-      width="43"
+      width="27"
       height="29"
       viewBox="0 0 43 29"
       fill="none"

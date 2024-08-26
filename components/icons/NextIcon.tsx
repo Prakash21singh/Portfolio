@@ -3,7 +3,7 @@ import React from "react";
 const NextIcon = () => {
   return (
     <svg
-      width="25"
+      width="27"
       height="25"
       viewBox="0 0 25 25"
       fill="none"
