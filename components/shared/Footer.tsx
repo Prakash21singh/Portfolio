@@ -10,8 +10,8 @@ const Footer = () => {
         Ready to take <span className="text-purple">Your </span>digital
         <p>product at next level</p>
         <p className="text-center text-xs text-wrap lg:text-sm my-2 text-white-200">
-          React me out today let's discuss <br /> how can i help you with your
-          thing
+          React me out today let&apos;s discuss <br /> how can i help you with
+          your thing
         </p>
         <div className="lg:w-1/2 mx-auto">
           <Link href={"https://www.linkedin.com/in/prakash21singh"}>
