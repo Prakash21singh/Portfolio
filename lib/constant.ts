@@ -1,0 +1,72 @@
+import {
+  AWS,
+  ReactIcon,
+  NodeJS,
+  AppWrite,
+  Bash,
+  CloudFlare,
+  Docker,
+  Express,
+  Figma,
+  GitHub,
+  Git,
+  Javascript,
+  Linkedin,
+  MongoDB,
+  MySQL,
+  NextJS,
+  Nginx,
+  NPM,
+  Postgres,
+  Postman,
+  Prisma,
+  Tailwind,
+  Redis,
+  Vercel,
+  SocketIO,
+  TypeScript,
+} from "@/techonologies";
+
+export const TECH_STACKS = [
+  {
+    title: "Frontend",
+    items: [
+      { name: "React", Icon: ReactIcon },
+      { name: "Next.js", Icon: NextJS },
+      { name: "Tailwind", Icon: Tailwind },
+      { name: "TypeScript", Icon: TypeScript },
+      { name: "JavaScript", Icon: Javascript },
+    ],
+  },
+  {
+    title: "Backend",
+    items: [
+      { name: "Node.js", Icon: NodeJS },
+      { name: "Express", Icon: Express },
+      { name: "Prisma", Icon: Prisma },
+      { name: "Socket.IO", Icon: SocketIO },
+    ],
+  },
+  {
+    title: "Database",
+    items: [
+      { name: "PostgreSQL", Icon: Postgres },
+      { name: "MongoDB", Icon: MongoDB },
+      { name: "MySQL", Icon: MySQL },
+      { name: "Redis", Icon: Redis },
+    ],
+  },
+  {
+    title: "DevOps & Tools",
+    items: [
+      { name: "AWS", Icon: AWS },
+      { name: "Docker", Icon: Docker },
+      { name: "Nginx", Icon: Nginx },
+      { name: "Vercel", Icon: Vercel },
+      { name: "Git", Icon: Git },
+      { name: "GitHub", Icon: GitHub },
+      { name: "Postman", Icon: Postman },
+      { name: "Figma", Icon: Figma },
+    ],
+  },
+];
