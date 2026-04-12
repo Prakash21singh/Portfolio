@@ -7,7 +7,7 @@ export default function Technologies() {
         Technologies I work with
       </h2>
 
-      <p className="text-gray-400 mb-6">
+      <p className="text-primary-text mb-6">
         Tools and technologies I use to build scalable, production-ready
         systems.
       </p>
